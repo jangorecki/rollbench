@@ -4,7 +4,7 @@
 Compares python pandas and R data.table by:
 
 - input size: `1e6, 1e7, 1e8`
-- rolling window size: `1e3, 1e4, 1e5`
+- rolling window size: `1e2, 1e3, 1e4`
 - rolling functions: `mean` and `median`
 - batching: `single` computation and `quadruple` (2 columns x 2 windows) computation
 
