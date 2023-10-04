@@ -49,7 +49,7 @@ data.table@rollmedian
 18:  median  1e+08  10000      8.594 94.668 11.02
 ```
 
-### 2 columns x 2 windows computation
+### quadruple computation
 
 ```
     rolling length window data.table  pandas pd2dt
