@@ -24,6 +24,8 @@ pandas 2.0.3
 data.table@rollmedian
 ```
 
+Timings are in seconds. Column `pd2dt` is time of pandas divided by time of data.table to easily show how many times data.table is faster than pandas.
+
 ### single computation
 
 ```
