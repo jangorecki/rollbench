@@ -1,4 +1,4 @@
-library(polars, lib="/home/jan/git/r-polars/lib")
+library(polars)
 set.seed(108)
 # mean
 test1 = function(N, W) {
