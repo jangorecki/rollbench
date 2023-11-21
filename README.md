@@ -23,7 +23,7 @@ Rscript polars.R
 As of 2023-11-21 using
 
 ```
-pandas 2.0.3
+pandas 2.1.3
 data.table@rollmedian
 polars 0.10.1
 ```
