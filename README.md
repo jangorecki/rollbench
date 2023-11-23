@@ -34,6 +34,8 @@ Timings are in seconds. Columns `pd2dt` and `ps2dt` are times of pandas and pola
 
 ### single computation
 
+![single](https://github.com/jangorecki/rollbench/assets/3627377/c1cf357a-70da-4b63-8c1a-489eebaa72de)
+
 ```
     rolling length window data.table pandas  polars pd2dt ps2dt
  1:    mean  1e+06    100      0.004  0.031   0.008  7.75  2.00
@@ -57,6 +59,8 @@ Timings are in seconds. Columns `pd2dt` and `ps2dt` are times of pandas and pola
 ```
 
 ### quadruple computation
+
+![quadruple](https://github.com/jangorecki/rollbench/assets/3627377/e10abfa1-4d95-4178-add8-20861dd61cef)
 
 ```
     rolling length window data.table  pandas  polars pd2dt ps2dt
