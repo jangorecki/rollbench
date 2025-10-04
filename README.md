@@ -24,7 +24,7 @@ As of 2025-09-16 using
 
 ```
 pandas 2.2.3
-data.table@frollmedian
+data.table@1.17.99
 polars 1.3.1
 ```
 
