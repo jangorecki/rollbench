@@ -3,7 +3,7 @@ d = data.table::fread("time.csv",
   colClasses=c("factor","factor","factor","numeric","numeric","numeric"))
 d[, c("rows","window") := .(as.factor(rows), as.factor(paste("w =", window)))]
 
-tp = function(.rolling, .dim) {
+tp = function(.rolling, .dim, d) {
   png(filename = sprintf("rollbench_%s_%s.png", .rolling, .dim),
       width = 8, height = 8, units = "in", res = 100)
   tinyplot::plt(
@@ -18,4 +18,4 @@ tp = function(.rolling, .dim) {
 }
 for (.rolling in c("mean","median"))
   for (.dim in c("single","quadruple"))
-    tp(.rolling, .dim)
+    tp(.rolling, .dim, d)
